@@ -1,0 +1,48 @@
+Hypertensive Retinopathy Classification Results Summary
+============================================================
+
+Date: 2025-04-27 07:19:11
+Model: EfficientNet-B7
+Classes: Normal, Mild, Moderate, Severe, Malignant
+Test samples: 227
+
+Test Set Performance:
+Accuracy: 96.04%
+Sensitivity: 95.47%
+Specificity: 98.99%
+Precision: 96.45%
+F1 Score: 95.81%
+MCC: 95.08%
+AUC: 99.85%
+
+Per-Class Performance:
+
+Normal:
+  Sensitivity: 100.00%
+  Specificity: 100.00%
+  Precision: 100.00%
+  F1 Score: 100.00%
+
+Mild:
+  Sensitivity: 88.24%
+  Specificity: 100.00%
+  Precision: 100.00%
+  F1 Score: 93.75%
+
+Moderate:
+  Sensitivity: 89.13%
+  Specificity: 98.90%
+  Precision: 95.35%
+  F1 Score: 92.13%
+
+Severe:
+  Sensitivity: 100.00%
+  Specificity: 97.19%
+  Precision: 90.74%
+  F1 Score: 95.15%
+
+Malignant:
+  Sensitivity: 100.00%
+  Specificity: 98.87%
+  Precision: 96.15%
+  F1 Score: 98.04%
